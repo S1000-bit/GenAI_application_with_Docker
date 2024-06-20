@@ -8,10 +8,8 @@ This is an ASGI application built using FastAPI. The project includes dependenci
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Running the Application](#running-the-application)
 - [Docker](#docker)
-- [License](#license)
+
 
 ## Introduction
 
@@ -41,9 +39,9 @@ This project is an ASGI application using FastAPI. It includes various dependenc
    ```bash
    pip install -r requirements.txt
 
-6. Docker:
-    To run the application using Docker, you need to have Docker installed on your machine.
-    1. Build the Docker image `docker build -t your-app-name `
-    2. Run the Docker container: `docker run -d -p 8000:8000 your-app-name`
+## docker:
+   To run the application using Docker, you need to have Docker installed on your machine.
+   1. Build the Docker image `docker build -t your-app-name `
+   2. Run the Docker container: `docker run -d -p 8000:8000 your-app-name`
 
 
