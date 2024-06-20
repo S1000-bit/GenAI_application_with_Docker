@@ -33,13 +33,15 @@ This project is an ASGI application using FastAPI. It includes various dependenc
    cd GenAI_application_with_Docker
 
 2. Create and activate a virtual environment:
-    `python -m venv env`
-    `source env/bin/activate  # On Windows use env\Scripts\activate`
+   ```bash
+      python -m venv env
+      source env/bin/activate  # On Windows use env\Scripts\activate
 
-3. Install the required dependencies:
-    `pip install -r requirements.txt`
+4. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-4. Docker:
+6. Docker:
     To run the application using Docker, you need to have Docker installed on your machine.
     1. Build the Docker image `docker build -t your-app-name `
     2. Run the Docker container: `docker run -d -p 8000:8000 your-app-name`
